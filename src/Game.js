@@ -17,8 +17,8 @@ tileMap.init();
 
 let gameWin = false;
 let gameOver = false;
-const gameWinSound = new Audio("/sounds/gameWin.wav");
-const gameOverSound = new Audio("/sounds/gameOver.wav");
+const gameWinSound = new Audio("sounds/gameWin.wav");
+const gameOverSound = new Audio("sounds/gameOver.wav");
 
 const ctx = canvas.getContext("2d");
 ctx.fillStyle = "black";
