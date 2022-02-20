@@ -9,7 +9,7 @@ export default class TileMap {
     this.initStep = 100;
   }
 
-  changeSound = new Audio("/sounds/change.mp3");
+  changeSound = new Audio("sounds/change.mp3");
 
   // 5 X 5 map
   map = [
